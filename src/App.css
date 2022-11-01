@@ -20,7 +20,7 @@ input {
   -moz-box-shadow: 0px -1px 5px 5px rgba(0, 0, 0, 0.12);
   border: none;
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .icon-container {
@@ -56,10 +56,11 @@ input {
 
 .search-suggest {
   width: 400px;
-  border-radius: 20px;
-  box-shadow: 0px -1px 5px 5px rgba(0, 0, 0, 0.12);
-  -webkit-box-shadow: 0px -1px 5px 5px rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0px -1px 5px 5px rgba(0, 0, 0, 0.12);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 5px 14px 22px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 5px 14px 22px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 5px 14px 22px 0px rgba(0, 0, 0, 0.28);
   margin-top: 0;
   padding: 10px;
 }

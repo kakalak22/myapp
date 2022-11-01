@@ -58,8 +58,13 @@ function App() {
         onInput={handleInput}
         searchData={state.input}
       />
-      <SearchSuggestion onInput={handleInput} data={searhSuggestion} />
+      <div className="search-suggest">
+        <SearchSuggestion onInput={handleInput} data={searhSuggestion} />
+      </div>
       <ShortcutIcon iconList={filteredIcons} />
+      <a href="https://github.com/kakalak22/myapp" target="_blank">
+        Github
+      </a>
     </div>
   );
 }
